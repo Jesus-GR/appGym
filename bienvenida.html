@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/Logo.fav.gif" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilosBarraNav.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Bienvenida</title>
+</head>
+<body id="body">
+        <div class="d-flex" id="wrapper">
+
+            <!-- Sidebar -->
+            <div class=" bg-gradientRedBlue border-right" id="sidebar-wrapper">
+              <div class=" sidebar-heading mb-5"></div>
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action bg-blue text-white border ">Entrenar</a>
+                <a href="#" class="list-group-item list-group-item-action bg-blue text-white border ">Nueva Rutina</a>
+                <a href="#" class="list-group-item list-group-item-action bg-blue text-white border">Modificar Rutina</a>
+                <a href="#" class="list-group-item list-group-item-action bg-blue text-white border">Eliminar Rutina</a>
+              </div>
+            </div>
+            <!-- /#sidebar-wrapper -->
+        
+            <!-- Contenido de la página -->
+            <div class="w-100" id="page-content-wrapper">
+        
+              <nav class=" navbar navbar-expand-lg navbar-light bg-blue border-bottom">
+                <button class="navbar-toggler ml-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class=" navbar-nav ml-auto mt-2 mt-lg-0">
+                   
+                    <li class="nav-item dropdown mr-1">  
+                      <a class=" nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Usuario
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Peril</a>
+                        <a class="dropdown-item" href="#">Evolución</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Cerrar sesión</a>
+                      </div>
+                    </li>
+                  
+                  </ul>
+                  <svg class="mr-5 text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+                  </svg>
+                </div>
+              </nav>
+
+              <h1>Nueva rutina</h1>
+              <h2>Comienzo/Fin</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-5 pr-3">
+                   <img src="imagenes/calendario.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Días a la semana </label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1-Lunes</option>
+                    <option>2-Martes</option>
+                    <option>3-Miércoles</option>
+                    <option>4-Jueves</option>
+                    <option>5-Viernes</option>
+                    <option>6-Sábado</option>
+                    <option>7-Domingo</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Añadir ejercicio </label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Pectorales</option>
+                    <option>Dorsales</option>
+                    <option>Brazos</option>
+                    <option>Triceps</option>
+                    <option>Piernas</option>
+                    <option>Core</option>
+                    <option>Cardio</option>
+                  </select>
+                </div>
+
+                <table class="table table-bordered overflow-auto">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="w-25"> <img src="imagenes/jalonPecho.png"></th>
+                      <th scope="col" class="w-25"> <img src="imagenes/aperturaMaquina.png" ></th>
+                      <th scope="col" class="w-25"><img src="imagenes/elevacionesLaterales.png" alt=""></th>
+                      <th scope="col" class="w-25"> <img src="imagenes/fondos.png" alt=""></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" class="w-25"><img src="imagenes/bicepsBarra.png" alt=""> </th>
+                      <td class="w-25"><img src="imagenes/dominadas.png" ></td>
+                      <td class="w-25"> <img src="imagenes/bicepsMancuerna.png" alt=""> </td>
+                      <td class="w-25"> <img src="imagenes/prensa.png" alt=""></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="w-25"> <img src="imagenes/presbanca.png" alt=""></th>
+                      <td class="w-25"> <img src="imagenes/abs.png" alt=""></td>
+                      <td class="w-25"><img src="imagenes/bicepsSentado.png" alt=""></td>
+                      <td class="w-25"><img src="imagenes/flexiones.png" alt=""></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <button type="button" class="btn btn-info">Añadir</button>
+
+            </div>
+            <!-- /#page-content-wrapper -->
+            
+        
+          </div>
+</body>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+$("#menu-toggle").click(function(e) {
+e.preventDefault();
+$("#wrapper").toggleClass("toggled");
+});
+ </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</html>

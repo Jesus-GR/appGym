@@ -1,0 +1,333 @@
+/*Pagina de estilos del CRUD*/
+
+#body{
+    background-color: rgb(104, 104, 104);
+    width: 100%;
+    height: 110%;
+    
+}
+
+
+
+#wrapper{
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(rgb(228, 18, 18),rgb(39, 123, 219));
+    background-position: center;
+    margin: auto;
+    box-shadow: rgb(82, 80, 80) 5px 5px 5px 5px;
+    border-radius: 3%;
+}
+
+
+#wrapper-alta{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(228, 18, 18),rgb(39, 123, 219));
+    background-position: center;
+    margin: auto;
+    box-shadow: rgb(82, 80, 80) 5px 5px 5px 5px;
+    border-radius: 3%;
+}
+
+#wrapper-modificacion{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(228, 18, 18),rgb(39, 123, 219));
+    background-position: center;
+    margin: auto;
+    box-shadow: rgb(82, 80, 80) 5px 5px 5px 5px;
+    border-radius: 3%;
+}
+
+#wrapper-borrar{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(228, 18, 18),rgb(39, 123, 219));
+    background-position: center;
+    margin: auto;
+    box-shadow: rgb(82, 80, 80) 5px 5px 5px 5px;
+    border-radius: 3%;
+}
+
+#borrar h1{
+    border: 2px black solid;
+    background-color:rgb(144, 196, 238);
+    color: black;
+    border: solid black 3px;
+    border-radius: 10%;
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#altaNueva h1{
+    border: 2px black solid;
+    background-color:rgb(144, 196, 238);
+    color: black;
+    border: solid black 3px;
+    border-radius: 10%;
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#wrapper-modificacion h1{
+    border: 2px black solid;
+    background-color:rgb(144, 196, 238);
+    color: black;
+    border: solid black 3px;
+    border-radius: 10%;
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+h2{
+    border: 2px black solid;
+    background-color:rgb(144, 196, 238);
+    color: black;
+    border: solid black 3px;
+    border-radius: 10%;
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#altaNueva{
+    background-color: darkgrey;
+    border-radius: 10px;
+    border: black solid 3px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#borrar{
+    background-color: darkgrey;
+    border-radius: 10px;
+    border: black solid 3px;
+    padding: 10px;
+    margin-bottom: 50px;
+    height: 75vh;
+}
+#botonGuardar{
+    margin-left: 17%;
+    margin-top: 15%;
+    font-size: 1.5em;
+    border: inset lightcoral;
+    border-radius:10px ;
+    margin-bottom: 10px;
+}
+#botonVolver{
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 1.5em;
+    border: inset lightcoral;
+    border-radius:10px ;
+    margin-bottom: 10px;
+}
+
+#modificacion-izq{
+    background-color: darkgrey;
+    border-radius: 10px;
+    border: black solid 3px;
+    padding: 10px;
+}
+
+#modificacion-dch{
+    background-color: darkgrey;
+    border-radius: 10px;
+    border: black solid 3px;
+    padding: 10px;
+}
+
+#imagenBienvenida{
+    background-image: url(../imagenes/produccion-cinematografica.jpg);
+    background-size: cover;
+    background-position: 20%;
+    width: 100%;
+    height: 90%;
+}
+#imagenBienvenida p {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+#logo{
+    width: 40vw;
+    margin-left: 20%;    
+}
+
+#shootingPlanner{
+    border: 2px black solid;
+    background-color:rgb(144, 196, 238);
+    color: black;
+    border: solid black 3px;
+    border-radius: 10%;
+    text-shadow: rgb(255, 0, 0) 1px 1px 1px;
+    text-align: center;
+}
+.bg-red{
+    background-color: brown;
+}
+.bg-blue{
+    background-image: linear-gradient(rgb(39, 123, 219),rgb(39, 123, 219));
+}
+.bg-gradientRedBlue{
+    background-image: linear-gradient(rgb(228, 18, 18),rgb(39, 123, 219));
+}
+
+#navbarSupportedContent{
+    width: 100%;
+}
+#form1{
+    border-radius: 20px 0px 0px 20px;
+    background-image: linear-gradient(rgb(228, 18, 18),rgb(39, 123, 219)); /* linear-gradient(rgb(135, 219, 245), rgb(173, 235, 116));*/
+    height: 90vh;
+    border-right: 6px black outset ;
+    
+}
+
+#formLogo{
+    border-radius: 0px 20px 20px 0px;
+    background-image: linear-gradient(rgb(39, 123, 219), rgb(228, 18, 18));
+    height: 90vh;
+}
+#botonLogin{
+    margin-left: 15%;
+    width: 60%;
+}
+/*Calendario*/
+
+/***Media Query***/
+
+@media only screen and (max-width:1300px){
+
+    #form1{
+        border-radius: 20px 0px 0px 20px;
+        height: 90vh;
+        border-right: 6px black none ;
+        
+    }
+    
+    #formLogo{
+        border-radius: 0px 20px 20px 0px;
+        height: 90vh;
+    }
+    #imagenBienvenida{{
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    #form1{
+        border-radius: 0px 0px 20px 20px;
+        height: 70vh;
+        border-right: 6px black none ;
+        
+    }
+    
+    #formLogo{
+        border-radius: 20px 20px 0px 0px;
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width:950px){
+    
+    #wrapper{
+        height: 110vh;
+    }
+    #botonLogin{ position: relative;
+        bottom: 30px;
+        margin-left: 15%;
+        width: 50%;
+    }
+    
+    #form1{
+        border-radius: 0px 0px 20px 20px;
+        padding-bottom: 10%;
+        height: 60vh;
+        border-right: 6px black none ;
+    }
+
+    #formLogo{
+            border-radius: 20px 20px 0px 0px;
+            height: 60vh;
+    }
+
+    #imagenBienvenida{
+        background-image: url(../imagenes/camaraMovil.jpg);
+    }
+
+    #sidebar-wrapper{
+        height: 157vh;
+    }
+    #sidebar-wrapper-borrado{
+        width: 50vw;
+    }
+    #topnav{
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width:600px){
+    
+    #botonLogin{ position: relative;
+        bottom: 30px;
+        margin-left: 15%;
+        width: 60%;
+    }
+    
+    #form1{
+        border-radius: 0px 0px 20px 20px;
+        padding-bottom: 10%;
+        height: 60vh;
+    }
+
+    #formLogo{
+            border-radius: 20px 20px 0px 0px;
+            height: 35vh;
+    }
+
+    #modificacion-dch{
+        margin-top: 20px;
+    }
+
+    #logoBarra{
+    width: 90%;
+    position: relative;
+    left: 20px;
+    }
+
+    #sidebar-wrapper{
+        width: 50vw;
+        height: auto;
+    }
+
+    #altaNueva{
+        margin: 10px;
+    }
+    #topnav{
+        width: 110vw;
+    }
+    #botonGuardar{
+        margin-left: 10%;
+        margin-top: 15%;
+        font-size: 1.5em;
+        border: inset lightcoral;
+        border-radius:10px ;
+        margin-bottom: 10px;
+    }
+    #botonVolver{
+        margin-left: 10%;
+        margin-top: 15%;
+        font-size: 1.5em;
+        border: inset lightcoral;
+        border-radius:10px ;
+        margin-bottom: 10px;
+    }
+}
