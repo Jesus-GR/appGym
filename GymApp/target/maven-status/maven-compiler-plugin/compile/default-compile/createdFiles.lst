@@ -1,0 +1,5 @@
+edu\fpdual\dao\Ejercicio.class
+edu\fpdual\dao\Rutina.class
+edu\fpdual\dao\Musculos.class
+edu\fpdual\manager\UsuarioManager.class
+edu\fpdual\dao\Usuario.class
